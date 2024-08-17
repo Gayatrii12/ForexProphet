@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pickle
 from arima2 import future_rate
-from currency2 import future_rates
+from models.currency2 import future_rates
 # from currency2 import show_graph
 from flask import Flask, render_template
 import matplotlib.pyplot as plt
